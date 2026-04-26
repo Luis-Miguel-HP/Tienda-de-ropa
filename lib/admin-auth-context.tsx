@@ -10,7 +10,7 @@ interface AdminAuthContextType {
 
 const AdminAuthContext = createContext<AdminAuthContextType | undefined>(undefined)
 
-const ADMIN_PASSWORD = "admin123" // In production, use environment variables and proper auth
+const ADMIN_PASSWORD = "admin100" 
 
 export function AdminAuthProvider({ children }: { children: ReactNode }) {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
