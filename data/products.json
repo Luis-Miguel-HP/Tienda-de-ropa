@@ -1,0 +1,168 @@
+[
+  {
+    "id": "3",
+    "name": "Shorts de Playa",
+    "price": 34.99,
+    "category": "verano",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "isNew": false,
+    "isAvailable": false,
+    "image": "https://images.unsplash.com/photo-1565084888279-aca607ecce0c?w=400&h=500&fit=crop"
+  },
+  {
+    "id": "4",
+    "name": "Conjunto Infantil Colorido",
+    "price": 39.99,
+    "category": "niños",
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "isNew": false,
+    "isAvailable": false,
+    "image": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=400&h=500&fit=crop"
+  },
+  {
+    "id": "6",
+    "name": "Blusa Elegante Rosa",
+    "price": 49.99,
+    "category": "mujeres",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "isNew": true,
+    "isAvailable": false,
+    "image": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=400&h=500&fit=crop"
+  },
+  {
+    "id": "7",
+    "name": "Camiseta Niño Dinosaurios",
+    "price": 24.99,
+    "category": "niños",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "isNew": true,
+    "isAvailable": true,
+    "image": "https://images.unsplash.com/photo-1519457431-44ccd64a579b?w=400&h=500&fit=crop"
+  },
+  {
+    "id": "8",
+    "name": "Bikini Tropical",
+    "price": 54.99,
+    "category": "verano",
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "isNew": false,
+    "isAvailable": true,
+    "image": "https://images.unsplash.com/photo-1570976447640-ac859083963f?w=400&h=500&fit=crop"
+  },
+  {
+    "id": "9",
+    "name": "Jeans Slim Fit",
+    "price": 79.99,
+    "category": "hombres",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "isNew": false,
+    "isAvailable": false,
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=500&fit=crop"
+  },
+  {
+    "id": "11",
+    "name": "Sandalias de Playa",
+    "price": 29.99,
+    "category": "verano",
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "isNew": true,
+    "isAvailable": true,
+    "image": "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=400&h=500&fit=crop"
+  },
+  {
+    "id": "12",
+    "name": "Pijama Infantil Unicornio",
+    "price": 34.99,
+    "category": "niños",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "isNew": false,
+    "isAvailable": true,
+    "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&h=500&fit=crop"
+  },
+  {
+    "id": "13",
+    "name": "Blazer Primavera",
+    "price": 89.99,
+    "category": "temporada",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "isNew": true,
+    "isAvailable": true,
+    "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&h=500&fit=crop"
+  },
+  {
+    "id": "14",
+    "name": "Vestido Lino Natural",
+    "price": 74.99,
+    "category": "temporada",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "isNew": true,
+    "isAvailable": true,
+    "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=500&fit=crop"
+  },
+  {
+    "id": "15",
+    "name": "Camisa Oversize Beige",
+    "price": 54.99,
+    "category": "temporada",
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "isNew": true,
+    "isAvailable": true,
+    "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=400&h=500&fit=crop"
+  },
+  {
+    "id": "16",
+    "name": "Pantalon Wide Leg",
+    "price": 69.99,
+    "category": "temporada",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "isNew": false,
+    "isAvailable": true,
+    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=500&fit=crop"
+  }
+]
