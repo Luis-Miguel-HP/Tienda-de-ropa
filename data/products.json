@@ -1,19 +1,5 @@
 [
   {
-    "id": "3",
-    "name": "Shorts de Playa",
-    "price": 34.99,
-    "category": "verano",
-    "sizes": [
-      "M",
-      "L",
-      "XL"
-    ],
-    "isNew": false,
-    "isAvailable": false,
-    "image": "https://images.unsplash.com/photo-1565084888279-aca607ecce0c?w=400&h=500&fit=crop"
-  },
-  {
     "id": "4",
     "name": "Conjunto Infantil Colorido",
     "price": 39.99,
@@ -23,7 +9,7 @@
       "M"
     ],
     "isNew": false,
-    "isAvailable": false,
+    "isAvailable": true,
     "image": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=400&h=500&fit=crop"
   },
   {
@@ -37,7 +23,7 @@
       "L"
     ],
     "isNew": true,
-    "isAvailable": false,
+    "isAvailable": true,
     "image": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=400&h=500&fit=crop"
   },
   {
@@ -51,7 +37,7 @@
       "L"
     ],
     "isNew": true,
-    "isAvailable": true,
+    "isAvailable": false,
     "image": "https://images.unsplash.com/photo-1519457431-44ccd64a579b?w=400&h=500&fit=crop"
   },
   {
@@ -64,7 +50,7 @@
       "M"
     ],
     "isNew": false,
-    "isAvailable": true,
+    "isAvailable": false,
     "image": "https://images.unsplash.com/photo-1570976447640-ac859083963f?w=400&h=500&fit=crop"
   },
   {
@@ -77,7 +63,7 @@
       "L"
     ],
     "isNew": true,
-    "isAvailable": true,
+    "isAvailable": false,
     "image": "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=400&h=500&fit=crop"
   },
   {
@@ -92,7 +78,7 @@
       "XL"
     ],
     "isNew": true,
-    "isAvailable": true,
+    "isAvailable": false,
     "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&h=500&fit=crop"
   },
   {
@@ -106,7 +92,7 @@
       "L"
     ],
     "isNew": true,
-    "isAvailable": true,
+    "isAvailable": false,
     "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=500&fit=crop"
   },
   {
@@ -120,7 +106,7 @@
       "XL"
     ],
     "isNew": true,
-    "isAvailable": true,
+    "isAvailable": false,
     "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=400&h=500&fit=crop"
   }
 ]
