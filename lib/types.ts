@@ -1,6 +1,6 @@
 export type Category = "niños" | "verano" | "hombres" | "mujeres" | "temporada"
 
-export type Size = "S" | "M" | "L" | "XL"
+export type Size = "XS" | "S" | "M" | "L"
 
 export interface Product {
   id: string

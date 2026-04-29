@@ -79,7 +79,7 @@ export default function StorePage() {
   }
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-[#F5F5F0]">
       <StoreNavbar selectedCategory={selectedCategory} onCategoryChange={setSelectedCategory} />
 
       {/* Hero Banner */}
@@ -87,7 +87,7 @@ export default function StorePage() {
         <HeroBanner onCategoryChange={setSelectedCategory} />
       )}
 
-      <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+      <main className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         {/* Mobile filter button */}
         <div className="mb-4 flex items-center justify-between lg:hidden">
           <p className="text-sm text-muted-foreground">
@@ -95,14 +95,18 @@ export default function StorePage() {
           </p>
           <Sheet open={mobileFiltersOpen} onOpenChange={setMobileFiltersOpen}>
             <SheetTrigger asChild>
-              <Button variant="outline" size="sm" className="gap-2">
-                <SlidersHorizontal className="size-4" />
-                Filtros
+             <Button
+               variant="outline"
+               size="sm"
+               className="gap-2 border-[#D6D6CE] text-[#2B2B2B] hover:bg-[#EDEDE5]"
+                      >Filtros
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-80">
+            <SheetContent side="right" className="w-80 bg-[#F5F5F0]">
               <SheetHeader>
-                <SheetTitle>Filtros</SheetTitle>
+              <SheetTitle className="text-[#2B2B2B] font-medium">
+                          Filtros
+                      </SheetTitle>
               </SheetHeader>
               <div className="mt-6">
                 <FilterSidebar {...filterSidebarProps} />
@@ -110,15 +114,14 @@ export default function StorePage() {
             </SheetContent>
           </Sheet>
         </div>
-
-        <div className="flex gap-8">
+        <div className="flex gap-12">
           {/* Desktop filter sidebar */}
           <div className="hidden lg:block">
             <FilterSidebar {...filterSidebarProps} />
           </div>
 
           {/* Product grid */}
-          <div className="flex-1">
+          <div className="flex-1 space-y-6">
             <div className="mb-4 hidden items-center justify-between lg:flex">
               <p className="text-sm text-muted-foreground">
                 {filteredProducts.length} productos encontrados
