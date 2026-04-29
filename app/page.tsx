@@ -50,10 +50,14 @@ export default function StorePage() {
       }
 
       // Size filter
-      if (selectedSizes.length > 0 && !selectedSizes.some((size) => product.sizes.includes(size))) {
-        return false
-      }
-
+     if (
+      selectedSizes.length > 0 &&
+       !selectedSizes.some((size) =>
+      product.sizes.some((s) => s.size === size && s.available)
+  )
+) {
+  return false
+}
       // Availability filter
       if (showOnlyAvailable && !product.isAvailable) {
         return false
