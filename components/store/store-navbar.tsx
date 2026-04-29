@@ -14,7 +14,7 @@ import { SheetTitle } from "@/components/ui/sheet"
 const categories: { value: Category | "all"; label: string }[] = [
 { value: "all", label: "Todos" },
 { value: "temporada", label: "Temporada" },
-{ value: "niños", label: "Niños" },
+{ value: "Accesorios", label: "Accesorios" },
 { value: "verano", label: "Verano" },
 { value: "hombres", label: "Hombres" },
 { value: "mujeres", label: "Mujeres" },

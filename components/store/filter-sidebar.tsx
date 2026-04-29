@@ -20,13 +20,13 @@ interface FilterSidebarProps {
   onShowOnlyNewChange?: (show: boolean) => void
 }
 
-const sizes: Size[] = ["S", "M", "L", "XL"]
+const sizes: Size[] = ["XS", "S", "M", "L"]
 
 const categories: { value: Category; label: string }[] = [
   { value: "temporada", label: "Temporada" },
   { value: "hombres", label: "Hombres" },
   { value: "mujeres", label: "Mujeres" },
-  { value: "niños", label: "Ninos" },
+  { value: "Accesorios", label: "accesorios" },
   { value: "verano", label: "Verano" },
 ]
 

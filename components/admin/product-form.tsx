@@ -11,7 +11,7 @@ import type { Category, Size } from "@/lib/types"
 
 const categories: { value: Category; label: string }[] = [
 { value: "temporada", label: "Temporada" },
-{ value: "niños", label: "Niños" },
+{ value: "Accesorios", label: "Accesorios" },
 { value: "verano", label: "Verano" },
 { value: "hombres", label: "Hombres" },
 { value: "mujeres", label: "Mujeres" },

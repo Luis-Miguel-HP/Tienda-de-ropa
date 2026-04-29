@@ -1,22 +1,23 @@
-export type Category = "niños" | "verano" | "hombres" | "mujeres" | "temporada"
+export type Category = "Accesorios" | "verano" | "hombres" | "mujeres" | "temporada"
 
-export type Sizes = {
-  size: Sizes
-  avaible: boolean
-}[]
+export type Size = "XS" | "S" | "M" | "L"
+
+export type ProductSize = {
+  size: Size
+  available: boolean
+}
 
 export interface Product {
   id: string
   name: string
   price: number
   category: Category
-  sizes: Sizes[]
+  sizes: ProductSize[]
   isNew: boolean
   isAvailable: boolean
   image: string
   colors?: {
-  name: string
-  hex: string
-    }[]
+    name: string
+    hex: string
+  }[]
 }
-

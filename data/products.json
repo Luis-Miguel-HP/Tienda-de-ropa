@@ -1,18 +1,5 @@
 [
   {
-    "id": "4",
-    "name": "Conjunto Infantil Colorido",
-    "price": 39.99,
-    "category": "niños",
-    "sizes": [
-      "S",
-      "M"
-    ],
-    "isNew": false,
-    "isAvailable": false,
-    "image": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=400&h=500&fit=crop"
-  },
-  {
     "id": "6",
     "name": "Blusa Elegante Rosa",
     "price": 49.99,
@@ -25,20 +12,6 @@
     "isNew": true,
     "isAvailable": true,
     "image": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=400&h=500&fit=crop"
-  },
-  {
-    "id": "7",
-    "name": "Camiseta Niño Dinosaurios",
-    "price": 24.99,
-    "category": "niños",
-    "sizes": [
-      "S",
-      "M",
-      "L"
-    ],
-    "isNew": true,
-    "isAvailable": true,
-    "image": "https://images.unsplash.com/photo-1519457431-44ccd64a579b?w=400&h=500&fit=crop"
   },
   {
     "id": "8",
@@ -120,7 +93,7 @@
       "L"
     ],
     "isNew": false,
-    "isAvailable": false,
+    "isAvailable": true,
     "image": "/uploads/1777465704527-qji1dl4m3e.webp",
     "colors": [
       {
